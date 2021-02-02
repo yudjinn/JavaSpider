@@ -84,8 +84,8 @@ public class Spider {
         Map<String, String> loginData = new HashMap<>();
         loginData.put("requestType", "reqBuild");
         loginData.put("pmid", "ADMIN_LOGIN");
-        loginData.put("emailAddress", "jacob.rodgers%40siliconmtn.com");
-        loginData.put("password", "SMTRul3s%21");
+        loginData.put("emailAddress", "EMAIL_ADDRESS"); // Fill this in with uri-encoded emailaddress
+        loginData.put("password", "PASSWORD"); // Fill this in with uri-encoded password
         loginData.put("l", "");
         return loginData;
     }

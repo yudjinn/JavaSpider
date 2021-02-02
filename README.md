@@ -2,6 +2,10 @@
 
 Web crawler built in java. Maps and downloads all files for a given website.
 
+## For admin tool crawling, Input your email and password in the `src/Spider>loginData` map
+
+Creates an `output` directory with crawled files.
+
 ## Outline
 
 Create socket -> use an SSL socket
@@ -19,6 +23,7 @@ link Parser -> regex on "/link"
 File handler
 
 ## Helpful Notes:
+
 Use ssl socket
 use JSOUP for parsing
 
