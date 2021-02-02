@@ -1,0 +1,7 @@
+{
+    "java.format.settings.url": "eclipse-formatter.xml",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "JavaSpider/lib/jsoup-1.13.1.jar"
+    ]
+}
